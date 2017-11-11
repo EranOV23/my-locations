@@ -1,0 +1,64 @@
+@import '../../assets/css/colors.scss';
+
+.sort-list{
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  li{
+    button:hover{
+      background: $actionColor;
+      color: $fontColor;
+    }
+  }
+}
+
+
+.locations-list{
+  list-style: none;
+  padding-left: 0;
+  overflow: scroll;
+
+  li{
+    padding: 10px 20px;
+    .location {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      .content{
+        h3{
+          padding: 10px;
+          cursor: pointer;
+        }
+        h3:hover{
+          color: $actionColor;
+          border-radius: 20px;
+        }
+        .info{
+          div{
+              button{
+                background: $actionColor;
+                color: $fontColor;
+              }
+          }
+        }
+
+      }
+
+      .actions{
+        font-size: 30px;
+        span{
+          cursor: pointer;
+          color: $actionColor;
+          padding: 10px;
+          a{
+            cursor: pointer;
+            color: $actionColor;
+          }
+        }
+      }
+    }
+  }
+  li:last-child{
+    margin-bottom: 50px;
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "categories": [
+    {
+      "name": "Dresses"
+    },
+    {
+      "name": "Halls"
+    },
+    {
+      "name": "Suits"
+    }
+  ],
+  "locations":[
+    {
+      "name": "The 4th floor",
+      "address": "HaHarash St 8, Tel Aviv-Yafo, Israel",
+      "coordinates": {"lat": "32.05676", "lng": "34.78394"},
+      "category" : "Halls",
+    },
+    {
+      "name": "1947",
+      "address": "HaSharon St 10, Tel Aviv-Yafo, Israel",
+      "coordinates": {"lat": "32.06208", "lng": "34.77881"},
+      "category" : "Halls",
+    },
+    {
+      "name": "Eli Shitrit",
+      "address": "Shalma Rd 3, Tel Aviv-Yafo, Israel",
+      "coordinates": {"lat": "32.05482", "lng": "34.76013"},
+      "category" : "Dresses",
+    },
+    {
+      "name": "Bamoss Square",
+      "address": "Hei be-Iyar St 22, Tel Aviv-Yafo, Israel",
+      "coordinates": {"lat": "32.05875", "lng": "34.77561"},
+      "category" : "Suits"
+    }
+  ]
+}

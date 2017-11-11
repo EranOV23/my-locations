@@ -1,0 +1,41 @@
+@import '../../assets/css/colors.scss';
+
+.navbar{
+  background: white;
+  color: $navFontColor;
+  border-bottom: 1px solid $mainBackground;
+  
+  .nav-list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0 auto;
+    font-size: 20px;
+    
+    li{
+      margin: 10px;
+      padding: 10px;
+      a{
+        color: $actionColor;
+        text-decoration: none;
+
+        &.active{
+          color: $actionColor;
+        }
+      }
+    }
+
+    li:not(.list-item-search):hover{
+      background: $mainBackground;
+      color: $navFontColor;
+      border-radius: 20px;
+      a{
+        text-decoration: none;        
+      }
+    }
+
+    .list-item-search{
+      width: 60%;
+    }
+  }
+}

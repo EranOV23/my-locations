@@ -1,0 +1,47 @@
+@import '../../assets/css/colors.scss';
+
+.footer{
+    background: white;
+    color: $navFontColor;
+    border-top: 1px solid $mainBackground;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+  .footer-list{
+        display: flex;
+        align-items: center;
+        list-style: none;
+        margin: 0 auto;
+        font-size: 20px;
+        justify-content: space-evenly;
+
+        li{
+            margin: 10px;
+            padding: 10px;
+            a{
+                color: $navFontColor;
+                text-decoration: none;
+
+            &.active{
+                    color: $fontColorActive;
+                }
+            }
+        }
+
+        li:not(.list-item-search):hover{
+            background: $mainBackground;
+            color: $actionColor;
+            border-radius: 20px;
+
+            a{
+              text-decoration: none;
+              color: $actionColor;
+            }
+        }
+
+    .list-item-search{
+            width: 60%;
+        }
+    }
+}

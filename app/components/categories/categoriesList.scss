@@ -1,0 +1,50 @@
+@import '../../assets/css/colors.scss';
+
+.categories-list{
+  list-style: none;
+  padding-left: 0;
+
+  li{
+
+    div{
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      font-size: 30px;
+
+      h3{
+        padding: 20px;
+        cursor: pointer;
+      }
+      h3:hover{
+        color: $actionColor;
+        border-radius: 20px;
+      }
+      .actions{
+        margin-right: 20px;
+        span{
+          cursor: pointer;
+          padding: 10px;
+          color: $actionColor;
+          a{
+            color: $actionColor;
+          }
+        }
+      }
+    }
+    .locations-list{
+      flex-direction: column;
+      margin-left: 40px;
+
+      span{
+        transition: all 2s ease;
+        font-size: 20px;
+      }
+    }
+  }
+
+
+  li:last-child{
+    margin-bottom: 50px;
+  }
+}
